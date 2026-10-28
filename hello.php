@@ -8,3 +8,4 @@ declare(strict_types=1);
  */
 
 echo "drupal-pckg is alive — " . date('c') . PHP_EOL;
+echo "Push check OK" . PHP_EOL;
