@@ -1,0 +1,5 @@
+{
+  "name": "drupal-pckg",
+  "purpose": "multi-file pr notification test",
+  "files": ["docs", "scripts", "config"]
+}
