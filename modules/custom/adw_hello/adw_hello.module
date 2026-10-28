@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Minimal hooks for the ADW Hello module.
+ */
+
+declare(strict_types=1);
+
+/**
+ * Implements hook_help().
+ */
+function adw_hello_help($route_name, $route_match) {
+  if ($route_name === 'help.page.adw_hello') {
+    return '<p>' . t('ADW Hello is a sample custom module in drupal-pckg.') . '</p>';
+  }
+}

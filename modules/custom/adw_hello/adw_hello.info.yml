@@ -1,0 +1,5 @@
+name: 'ADW Hello'
+type: module
+description: 'Minimal custom module skeleton pushed from AI Developer Workspace.'
+core_version_requirement: '^9 || ^10 || ^11'
+package: Custom
